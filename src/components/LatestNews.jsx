@@ -23,11 +23,11 @@ function LatestNews() {
       <section className="web3">
         {/* Web 3 image */}
         <div className="md:hidden">
-          <img src={web3ImgMobile} alt="web3 image" />
+          <img src={web3ImgMobile} alt="web3" />
         </div>
 
         <div className="hidden md:block">
-          <img src={web3ImgDesktop} alt="web3 image" />
+          <img src={web3ImgDesktop} alt="web3" />
         </div>
 
         <div className="intro my-4 text-left md:flex">
@@ -62,7 +62,7 @@ function LatestNews() {
               <h3 className="text-off-white text-xl font-semibold group-hover:text-soft-orange ">
                 {news.title}
               </h3>
-              <p>{news.body}</p>
+              <p className="text-off-white opacity-[0.45]">{news.body}</p>
             </div>
           ))}
         </div>

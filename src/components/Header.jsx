@@ -16,7 +16,7 @@ function Header() {
 
   return (
     <header className="flex justify-between my-8" id="Home">
-      <img src={logo} />
+      <img src={logo} alt="Logo"/>
       <div className="drawer drawer-end inline-block">
         <input
           id="my-drawer-3"
@@ -28,7 +28,7 @@ function Header() {
         <nav className="flex justify-end">
           <div className="lg:hidden">
             <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
-              <img src={menuOpen} />
+              <img src={menuOpen} alt="Open menu"/>
             </label>
           </div>
 
