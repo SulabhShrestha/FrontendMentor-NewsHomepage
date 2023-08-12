@@ -23,7 +23,7 @@ function Header() {
               {navLinks.map((link) => (
                 <HashLink
                   key={link}
-                  className="hover:text-orange ml-7"
+                  className="hover:text-soft-orange ml-7"
                   smooth
                   to={`/#${link}`}
                   href={`/#${link}`}
